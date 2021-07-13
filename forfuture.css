@@ -8,5 +8,26 @@
   .navbar-brand {
     font-family: 'Open Sans', sans-serif;
 
-  }
+  } 
   
+   /*Clanek o nas*/
+   
+  .O-nas {
+    font-family:'Open Sans', sans-serif;
+    margin: auto;
+    background-color: rgb(159, 195, 241);
+    border-bottom:rgb(0, 0, 0)
+    }
+  .budoucnoust h2 {
+    margin-left: 20px;
+  }
+
+  .budoucnoust {
+    display:flex;
+    padding: 2em 0;
+    flex-direction: column;
+  }
+  .budoucnoust p {
+    margin-left: 20px;
+  }
+
