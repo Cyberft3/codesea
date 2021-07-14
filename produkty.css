@@ -14,3 +14,14 @@
     margin-top: 40px;
     
   }
+
+
+  @media (max-width: 552px) {
+       .allcards .card {
+        margin-top: 40px;
+  }
+  .allcards {
+      margin-top: unset;
+  }
+  }
+ 
