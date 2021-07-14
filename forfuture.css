@@ -91,7 +91,17 @@
 
     .img2 {
       margin-bottom: 50px;
+  
     }
     .img1 {
       margin-bottom: 40px;
     }
+    @media (max-width: 552px) {
+      .vsechno-ff .nebaleno2 .spoluprace2 .budoucnoust{
+       margin-top: 40px;
+       flex-direction: column;
+ }
+ .vsechno-ff {
+     margin-top: unset;
+ }
+ }
