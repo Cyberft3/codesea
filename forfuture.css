@@ -32,7 +32,7 @@
   }
   .flaska-img {
    width:100%
- 
+  
   }
   .odkaz {
     color: black;
@@ -65,15 +65,33 @@
       margin-left: 20px;
     }
 
- .prednasky h2 {
-    margin-left: 50px;
-  }
 
-  .prednasky {
-    display:flex;
-    padding: 2em 0;
-    flex-direction: column;
-  }
-  .prednasky p {
-    margin-left: 20px
-  }
+
+    .nebaleno1{
+      font-family:'Open Sans', sans-serif;
+      background-color: rgb(159, 195, 241);
+      border-bottom:rgb(0, 0, 0)
+      }
+    .nebaleno2 h2 {
+      margin-left: 20px;
+    }
+  
+    .nebaleno2 {
+      display:flex;
+      padding: 2em 0;
+      flex-direction: column;
+    }
+    .nebaleno2 p {
+      margin-left: 20px;
+    }
+    .flaska-img {
+     width:100%
+   
+    }
+
+    .img2 {
+      margin-bottom: 50px;
+    }
+    .img1 {
+      margin-bottom: 40px;
+    }
