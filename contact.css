@@ -1,3 +1,38 @@
+/* NEVÍM CO TO JE ALE MUSÍTO TADY BÝT (ZAČÁTEK) */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/* NEVÍM CO TO JE ALE MUSÍTO TADY BÝT (KONEC) */
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 .navbar {
     margin: 1px;
     padding: 0px;
@@ -5,10 +40,10 @@
   .navbar-brand {
     font-family: 'Open Sans', sans-serif;
   }
+/* Kontakty (začátek)*/
 
-  .site-footer
-{
-  background-color:#26272b;
+  .site-footer {
+  background-color:#ffffff;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -16,16 +51,12 @@
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  border-top-color:rgb(255, 255, 255);
   opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
 }
 .site-footer h6
 {
-  color:#fff;
+  color:rgb(0, 0, 0);
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -33,7 +64,7 @@
 }
 .site-footer a
 {
-  color:#737373;
+  color:#ffffff;
 }
 .site-footer a:hover
 {
@@ -55,7 +86,7 @@
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#0a0a0a;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -66,5 +97,16 @@
 {
   text-align:right
 }
+.nadpis h1{
+  margin-left: 60px;
 
+}
 
+.nadpis p {
+  margin-left: 60px;
+
+}
+
+.media h1{
+  margin-left: 60px;
+}
