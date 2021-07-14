@@ -1,0 +1,16 @@
+/*NAV BAR*/
+    
+.navbar {
+    margin: 1px;
+    padding: 0px;
+  }
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+
+  } 
+  .allcards {
+    flex-grow: 4; 
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+  }
