@@ -31,8 +31,32 @@
     margin-left: 20px;
   }
   .flaska-img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+   width:100%
+ 
   }
+  .odkaz {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    background-color: transparent;
+  }
+  
+ 
+  
+  .spoluprace2 h2 {
+   margin-left: 20px;
+    
+  }
+  .spoluprace {
+    display:flex;
+    padding: 2em 0;
+    flex-direction: column;
+  }
+
+  .spoluprace{
+    font-family:'Open Sans', sans-serif;
+    margin: auto;
+    background-color: rgb(216, 226, 240);
+    border-bottom:rgb(0, 0, 0)
+    }
