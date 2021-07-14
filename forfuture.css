@@ -65,4 +65,15 @@
       margin-left: 20px;
     }
 
-    
+ .prednasky h2 {
+    margin-left: 50px;
+  }
+
+  .prednasky {
+    display:flex;
+    padding: 2em 0;
+    flex-direction: column;
+  }
+  .prednasky p {
+    margin-left: 20px
+  }
